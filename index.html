@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content = "width=device-width">
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet"> 
+
+    <title>Convercoin</title>
+
+  </head>
+
+  <body>
+
+    <header class="cabecalho">
+      <div class="logo">
+
+        <h1 class="marca">Convercoin</h1>
+        <img class="moeda" src="imagens/moeda.png"> 
+
+      </div>
+
+
+    </header>
+
+    <hr class="divisoria">
+
+    <section>
+
+      <div class="caixa">
+
+       <h2 class="padrao">Bem vindo</h2>
+       <br>
+       <label class="padrao" for="value">Insira o valor em reais para convertê-lo em dólar!</label>
+       <br>
+       <input class="inputReal" id ="value" type="number" value="Valor em Reais" >
+       <br>
+       <br>
+       <button class="padrao" id="botaoConverter" type="submit" onclick="converter()">Converter</button>
+       <br>
+       <br>
+       <p>Valor em dólar:</p>
+         <div class="caixaOutput">
+
+          <h3 class="padrao" id="output"></h3>
+
+         </div>
+      </div>
+    </section>
+
+    
+
+    <footer>
+
+      <h1 class="marca2">Convercoin</h1>
+      <img class="moeda2" src="imagens/moeda2.png"> 
+      <p class= "copyright">©Copyright Convercoin</p>
+
+    </footer>
+  
+
+  <!--/body-->
+
+  <script src="conversor.js"></script>
+  </body>
+  
+</html>
