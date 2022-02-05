@@ -49,7 +49,8 @@ body {
     font-size: 2.5em;
 }
 
-.inputReal {
+#value {
+    width: 12em;
     margin: 0.7em 0;
 }
 .caixaOutput{
@@ -64,7 +65,7 @@ body {
 }
 footer{
     text-align: center;
-    margin: 45em 0 0 0;
+    margin: 42em 0 0 0;
 }
 .marca2 {
     font-size: 1.25em;
@@ -84,4 +85,19 @@ footer{
     font-family: 'Share Tech Mono', monospace;
     color: #ffd700;
     margin: 0 0 4em 0;
+}
+
+@media screen and (max-width: 600px) {
+    .cabecalho, .logo, .caixa {
+        width: auto;
+    }
+    .logo {
+        text-align: center;
+    }
+    .caixa {
+        margin: 15em 1.24em 0 1.24em;
+    }
+    footer {
+        margin: 30em 0 0 0;
+    }
 }

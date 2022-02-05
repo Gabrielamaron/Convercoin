@@ -4,15 +4,14 @@
   <head>
 
     <meta charset="UTF-8">
-    <meta name="viewport" content = "width=device-width">
-
+    <meta name="viewport" content = "width=device-width, initial-scale=1.0">
+    <title>Convercoin</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet"> 
 
-    <title>Convercoin</title>
 
   </head>
 
@@ -31,15 +30,15 @@
 
     <hr class="divisoria">
 
-    <section>
+    <main>
 
-      <div class="caixa">
+      <section class="caixa">
 
        <h2 class="padrao">Bem vindo</h2>
        <br>
        <label class="padrao" for="value">Insira o valor em reais para convertê-lo em dólar!</label>
        <br>
-       <input class="inputReal" id ="value" type="number" value="Valor em Reais" >
+       <input id ="value" type="number" name="valorEmReais" placeholder="Insira o valor em Reais" required>
        <br>
        <br>
        <button class="padrao" id="botaoConverter" type="submit" onclick="converter()">Converter</button>
@@ -51,8 +50,9 @@
           <h3 class="padrao" id="output"></h3>
 
          </div>
-      </div>
-    </section>
+        </section>
+
+    </main>
 
     
 
